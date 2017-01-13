@@ -5,12 +5,10 @@
 class Population
 {
 public:
-	Population::Population(int size,float muteRate, string targetStr);
-	~Population();
+	Population::Population(int size, float muteRate, string targetStr);
 	std::string targetString;
 	void calculateFitnesses();
 	void reproduce();
-	
 	float maxFitness;
 	int maxFitnessIndex;
 
