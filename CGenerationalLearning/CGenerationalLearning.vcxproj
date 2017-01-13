@@ -142,9 +142,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="CGenerationalLearning.h" />
     <ClInclude Include="DNA.h" />
     <ClInclude Include="Population.h" />
@@ -155,7 +152,6 @@
     <ClCompile Include="CGenerationalLearning.cpp" />
     <ClCompile Include="DNA.cpp" />
     <ClCompile Include="Population.cpp" />
-    <ClCompile Include="Source.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

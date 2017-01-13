@@ -1,5 +1,5 @@
 // CGenerationalLearning.cpp : Defines the entry point for the console application.
-//
+
 
 #include "stdafx.h"
 #include <vector>
@@ -14,8 +14,5 @@ int main()
 	while (pop.maxFitness < 1) {
 		pop.reproduce();
 	}
-
-
-	
 }
 
