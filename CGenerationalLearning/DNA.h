@@ -14,7 +14,6 @@ public:
 	int getSeed();
 private:
 	int seed;
-
 };
 
 
